@@ -18,8 +18,8 @@ import portkey_ai
 api_key = os.environ["PORTKEY_API_KEY"]
 
 # NOTE: Fetch this from https://app.portkey.ai/virtual-keys
-virtual_key = os.environ["OPENAI_VIRTUAL_KEY"]
-model_name = "gpt-4o-mini"
+virtual_key = os.environ["PORTKEY_OPENAI_VIRTUAL_KEY"]
+model_name = "gpt-5"
 
 # https://doordash.atlassian.net/wiki/spaces/Eng/pages/3717661428/GenAI+Gateway+FAQs#Base-URLs
 # - In your **laptop**, use `https://cybertron-service-gateway.doordash.team/v1`
