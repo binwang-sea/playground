@@ -1,5 +1,7 @@
 ## Shelf Video → SKU Catalog Onboarding
 
+![System Design](./system_design.png)
+
 This project turns in-store shelf videos into a structured product catalog. It finds the sharpest frames from a video, then uses a multimodal LLM (gpt-5 via DoorDash GenAI Gateway) to identify unique SKUs, pricing, and useful packaging text for catalog matching.
 
 ### Who this is for
